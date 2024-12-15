@@ -5,16 +5,7 @@ import './../styles/App.css';
 const App = () => {
   const [id, setId] = useState(3);
   const [input, setInput] = useState("");
-  const [todo, setTodo] = useState([
-    {
-      todo: "Eat",
-      id: 1
-    },
-    {
-      todo: "sleep",
-      id: 2
-    }
-  ])
+  const [todo, setTodo] = useState([])
 
   function handleSubmit(e) {
     e.preventDefault();
